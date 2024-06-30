@@ -1,0 +1,2 @@
+## Lo que aprendi IDOR
+En ocaciones hay codigo que se les olvida quitar a los desarrollodes lo que nos permite buscar endpoint que hacen llamados POST o PUT que podemos ocupar para explorar. IDOR es el nombre que se le da a esta vulnerabilidad, en donde podemos acceder a data que no deberia ser accesible desde otro lugar mas que el permitido. Un ejemplo de eso es un usuario que puede llamar a otros usuarios o encontrar informacion de otros usuarios. 
