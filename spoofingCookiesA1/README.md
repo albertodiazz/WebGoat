@@ -1,7 +1,7 @@
 El Set-Cookies siempre es enviado por el servidor, cuando un usario autetifica su sesion. Recuerda que del lado del cliente siempre enviamos cookies para validar sesion este o no conectado, esto lo hacen para guardar historial u otras cosas.
 
-[!NOTE]
-It is crucial for the security of the authentication system that the cookie generation algorithm remains secure and not easily guessable. If an attacker can predict or determine the algorithm, they may be able to generate valid authentication cookies for different users, thereby bypassing the authentication mechanism and impersonating other users.
+>[!NOTE]
+>It is crucial for the security of the authentication system that the cookie generation algorithm remains secure and not easily guessable. If an attacker can predict or determine the algorithm, they may be able to generate valid authentication cookies for different users, thereby bypassing the authentication mechanism and impersonating other users.
 
 
 ## Comando para desifrar el cookie de una sesion
